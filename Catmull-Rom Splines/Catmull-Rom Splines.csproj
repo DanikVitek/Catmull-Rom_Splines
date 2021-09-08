@@ -6,4 +6,18 @@
         <RootNamespace>Catmull_Rom_Splines</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MathNet.Numerics" Version="4.15.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="ConsoleGameEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\ConsoleGameEngine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Point.cs" />
+    </ItemGroup>
+
 </Project>
